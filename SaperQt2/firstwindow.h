@@ -17,6 +17,11 @@ public:
     ~FirstWindow();
 
 private:
+    void calculateAndSetBombsMinAndMax();//+
+    void updateBombsSlider();//+
+    void updateFromRowsSlider();//+
+    void updateFromColumnsSlider();//+]
+    void updateFromBombsSlider();//+
     int rowsNumber, columnsNumber, bombsNumber;
     int sliderBombsMin, sliderBombsMax;
 
